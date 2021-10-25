@@ -1,0 +1,67 @@
+body{
+  font-family: "Montserrat";
+}
+.container-fluid{
+  padding: 3% 8%;
+}
+.big-heading{
+  font-family: "Sacramento",cursive;
+  font-size: 3.5rem;
+  font-weight: 900;
+  position: relative;
+  top: 45%;
+  left: 10%;
+  width: 90%;
+}
+/* Title section */
+#title{
+  background-color: #1E5128;
+  color: #fff;
+}
+.title-image{
+  width: 60%;
+  position: relative;
+  left: 35%;
+}
+/* Navigation */
+.navbar-brand{
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding-right: 20px;
+}
+/* Aboutus */
+#features{
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  background-color: #B2F9FC;
+}
+.feature-title{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.feature-box{
+  padding: 5%;
+  font-weight: 400;
+}
+.icon{
+  margin-bottom: 1rem;
+  width: 20%;
+}
+/* Footer */
+#footer{
+  text-align: center;
+}
+.social-icon{
+  margin: 20px 10px;
+}
+@media (max-width: 1028px){
+  #title{
+  text-align: center;
+  }
+  .title-image{
+    position: static;
+    width: 60%;
+    margin: 15%;
+  }
+}
